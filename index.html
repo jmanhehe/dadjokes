@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  
+  <title>Just for dads</title>
+  
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/css/uikit.min.css"/>
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit-icons.min.js"></script>
+</head>
+<body class="uk-background-secondary">
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-right uk-margin-large-right">
+            <ul class="uk-navbar-nav">
+                <li><a class="uk-text-light" href="/index.html">Jokes</a></li>
+                <li><a class="uk-text-light" href="/about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="uk-text-center uk-margin-small">Your daily dose of random dad jokes.</h1>
+  <div class="uk-container" 
+              uk-height-viewport="expand: true"
+              >
+    <div class="uk-section
+              uk-padding-remove-top
+              ">
+      <div class="uk-animation-scale-up 
+                  uk-transform-origin-top-center"
+                  >
+        <div class="uk-card
+                    uk-background-default
+                    uk-width-2-3@m 
+                    uk-align-center 
+                    uk-flex 
+                    uk-flex-middle 
+                    uk-flex-center"
+                    >
+          <p id="joke-id" 
+              class="uk-dark
+                uk-heading-medium
+                uk-margin-remove-bottom 
+                uk-padding
+                "
+                >
+                
+          </p>
+          <!-- <p id="joke-id" class="uk-text-center uk-text-lead uk-text-bold uk-margin-remove-bottom">"Dad joke"</p> -->
+          <!-- <button class="uk-button uk-button-primary uk-align-center"><span class="uk-text-center">New dadjoke</span></button> -->
+        </div>
+        <button id="jokeNew"
+                class="uk-button 
+                uk-button-text 
+                uk-button-large 
+                uk-align-center"
+                >
+          <h1 class="uk-heading-medium uk-text-light uk-light">New Joke!!!</h1>
+        </button>
+        <!-- <p class="uk-text-lead uk-text-bold uk-text-center">New dadjoke!!!</p> -->
+      </div>
+    </div>
+  </div>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
